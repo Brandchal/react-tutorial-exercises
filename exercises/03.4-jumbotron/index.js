@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-const Jumbotron = props => {
+export const Jumbotron = props => {
     //here you have to return expected html using the properties being passed to the component
     return (
         <div className="jumbotron m-5">
